@@ -1,0 +1,109 @@
+html {
+  overflow: hidden;
+}
+
+body * {
+  margin: 0;
+  font-size: 16px;
+}
+
+body {
+  font-family: Verdana, open-sans;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #291624;
+  color: white;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+}
+
+.main-el {
+  margin: 20px 0;
+}
+
+#logo {
+  width: 300px;
+}
+
+#title {
+  font-size: 32px;
+}
+
+#checker {
+  background-color: white;
+  padding: 30px 0;
+  color: black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+#text-input {
+  border: 2px solid #b8489d;
+  border-radius: 10px;
+  text-align: center;
+  height: 2em;
+  box-sizing: border-box;
+}
+
+#text-input:hover {
+  border: 2px solid #82316f;
+}
+
+#check-btn {
+  background-color: #b8489d;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+}
+
+#check-btn:hover {
+  cursor: pointer;
+  background-color: #c973b5;
+}
+
+#check-btn:active {
+  background-color: #b8489d;
+}
+
+button[type="button"] {
+  border: none;
+  margin: 0;
+  background-color: darkgreen;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background-color: green;
+}
+
+#guide-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#guide {
+  padding: 30px 0;
+  border-radius: 20px;
+}
+
+#guide p {
+  margin: 0 30px;
+}
+
+.hidden {
+  display: none;
+}
